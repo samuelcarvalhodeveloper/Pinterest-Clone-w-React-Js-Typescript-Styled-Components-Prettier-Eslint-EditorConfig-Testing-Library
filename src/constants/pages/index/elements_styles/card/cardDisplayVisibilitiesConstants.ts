@@ -1,0 +1,5 @@
+export const CARD_RIPPLE_NONE_DISPLAY_WHEN_ELEMENT_IS_NOT_HOVERED: string =
+  "none";
+
+export const CARD_RIPPLE_BLOCK_DISPLAY_WHEN_ELEMENT_IS_HOVERED: string =
+  "block";
