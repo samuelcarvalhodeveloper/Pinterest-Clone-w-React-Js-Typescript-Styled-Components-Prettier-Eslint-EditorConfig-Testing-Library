@@ -1,6 +1,6 @@
 import { describe, test, expect } from "@jest/globals";
 import { fireEvent, render } from "@testing-library/react";
-import Index from "../../pages/Index/Index";
+import Index from "../../pages/Index/implementation/Index";
 import { HEADER_LOGO_ALT_TEXT } from "../constants/pages/index/pageElementsAltTextConstants";
 import {
   CARD_CONTAINER_TEST_ID,
