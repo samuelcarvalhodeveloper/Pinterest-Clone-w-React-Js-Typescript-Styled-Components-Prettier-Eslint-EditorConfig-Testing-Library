@@ -2,7 +2,6 @@ import { describe, test, expect } from "@jest/globals";
 import { fireEvent, render } from "@testing-library/react";
 import Content from "../../../../../../../components/index/content/content_component/implementation/Content";
 import { CARD_IMAGE_ALT_TEXT } from "../../../../../../../constants/pages/index/elements_alt_text/card/cardImageAltText";
-import IMAGE_ONE_CARD_DATA from "../../../../../../../mocks/pages/index/data_mock/card_image_data/imageOneCardData";
 import {
   CARD_CONTAINER_TEST_ID,
   CARD_RIPPLE_EFFECT_OVERLAY_TEST_ID,
@@ -13,6 +12,7 @@ import {
   CARD_RIPPLE_BLOCK_DISPLAY_WHEN_ELEMENT_IS_HOVERED,
   CARD_RIPPLE_NONE_DISPLAY_WHEN_ELEMENT_IS_NOT_HOVERED,
 } from "../../../../../../../constants/pages/index/elements_styles/card/cardDisplayVisibilitiesConstants";
+import IMAGE_ONE_CARD_DATA from "../../../../../../../components/index/content/content_component/infrastructure/mocks/data_mock/card_image_data/imageOneCardData";
 
 describe('Test "Content" Component Behavior', () => {
   test("Test If Elements Are Placed Correctly", () => {

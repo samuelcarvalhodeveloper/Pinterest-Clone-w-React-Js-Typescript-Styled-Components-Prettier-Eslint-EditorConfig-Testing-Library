@@ -10,8 +10,8 @@ import {
   CARD_RIPPLE_EFFECT_OVERLAY_TEST_ID,
   CARD_RIPPLE_MORE_OPTIONS_CONTAINER_TEST_ID,
 } from "../../../../../__test__/constants/pages/index/pageElementsTestIdConstants";
-import showCardRippleEffect from "../../../../../domains/ui/react/index_pages/card/toggle_ripple_effect/showCardRippleEffect";
-import hideCardRippleEffect from "../../../../../domains/ui/react/index_pages/card/toggle_ripple_effect/hideCardRippleEffect";
+import showCardRippleEffect from "../infrastructure/ui/ripple_effect_toggle/showCardRippleEffect";
+import hideCardRippleEffect from "../infrastructure/ui/ripple_effect_toggle/hideCardRippleEffect";
 
 function Card(props: CardsData): JSX.Element {
   const { creator, image, title, link } = props;

@@ -1,13 +1,13 @@
 import { describe, test, expect } from "@jest/globals";
 import { fireEvent, render } from "@testing-library/react";
-import IMAGE_ONE_CARD_DATA from "../../../../../../../../mocks/pages/index/data_mock/card_image_data/imageOneCardData";
 import {
   CARD_CONTAINER_TEST_ID,
   CARD_RIPPLE_EFFECT_OVERLAY_TEST_ID,
   CARD_RIPPLE_MORE_OPTIONS_CONTAINER_TEST_ID,
-} from "../../../../../../../constants/pages/index/pageElementsTestIdConstants";
-import { CARD_RIPPLE_NONE_DISPLAY_WHEN_ELEMENT_IS_NOT_HOVERED } from "../../../../../../../../constants/pages/index/elements_styles/card/cardDisplayVisibilitiesConstants";
-import Card from "../../../../../../../../components/index/content/card/implementation/Card";
+} from "../../../../../../../../constants/pages/index/pageElementsTestIdConstants";
+import { CARD_RIPPLE_NONE_DISPLAY_WHEN_ELEMENT_IS_NOT_HOVERED } from "../../../../../../../../../constants/pages/index/elements_styles/card/cardDisplayVisibilitiesConstants";
+import Card from "../../../../../../../../../components/index/content/card/implementation/Card";
+import IMAGE_ONE_CARD_DATA from "../../../../../../../../../components/index/content/content_component/infrastructure/mocks/data_mock/card_image_data/imageOneCardData";
 
 describe("Test Module hideCardRippleEffect Behavior", () => {
   test('Test If Method: "hideCardRippleEffect"; Turns The Card Ripple Effect Overlay And More Options Container Display To None Correctly', () => {

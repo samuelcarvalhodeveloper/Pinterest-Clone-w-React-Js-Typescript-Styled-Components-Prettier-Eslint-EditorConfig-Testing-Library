@@ -1,5 +1,5 @@
 import { RefObject } from "react";
-import { CARD_RIPPLE_BLOCK_DISPLAY_WHEN_ELEMENT_IS_HOVERED } from "../../../../../../constants/pages/index/elements_styles/card/cardDisplayVisibilitiesConstants";
+import { CARD_RIPPLE_BLOCK_DISPLAY_WHEN_ELEMENT_IS_HOVERED } from "../../../../../../../constants/pages/index/elements_styles/card/cardDisplayVisibilitiesConstants";
 
 function showCardRippleEffect(
   cardRippleMoreOptionsRef: RefObject<HTMLElement>,

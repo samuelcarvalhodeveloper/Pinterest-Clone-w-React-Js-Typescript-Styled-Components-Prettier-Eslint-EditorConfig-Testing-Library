@@ -1,14 +1,13 @@
 import { useState } from "react";
 import Card from "../../card/implementation/Card";
 import Styles from "../styles/Styles";
-
-import getIndexOfFullSetOfCardsMock from "../../../../../mocks/pages/index/function_mock/get_index_of_card/implementation/getIndexOfCardsMock";
-import IMAGE_ONE_CARD_DATA from "../../../../../mocks/pages/index/data_mock/card_image_data/imageOneCardData";
-import IMAGE_TWO_CARD_DATA from "../../../../../mocks/pages/index/data_mock/card_image_data/imageTwoCardData";
+import IMAGE_ONE_CARD_DATA from "../infrastructure/mocks/data_mock/card_image_data/imageOneCardData";
+import IMAGE_TWO_CARD_DATA from "../infrastructure/mocks/data_mock/card_image_data/imageTwoCardData";
+import getIndexOfCardsMock from "../infrastructure/mocks/function_mock/get_index_of_card/implementation/getIndexOfCardsMock";
 
 function Content(): JSX.Element {
   const [cardElementsIndexArray] = useState<Array<number>>(
-    getIndexOfFullSetOfCardsMock(),
+    getIndexOfCardsMock(),
   );
 
   return (
